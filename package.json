@@ -7,12 +7,14 @@
     "start": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "tsc && vite build && gh-pages -d dist"
+    "deploy": "tsc && vite build && git add dist -f && gh-pages -d dist"
   },
   "dependencies": {
+    "@hookform/resolvers": "^2.8.8",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-hook-form": "^7.30.0"
+    "react-hook-form": "^7.30.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",

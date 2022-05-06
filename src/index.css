@@ -9,3 +9,25 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  max-width: 300px;
+}
+
+input {
+  height: 1.8rem;
+}
+
+p {
+  height: 1rem;
+  font-size: 0.8rem;
+  color: red;
+}
+
+button {
+  height: 1.8rem;
+  margin-top: 1rem;
+}
